@@ -1,5 +1,5 @@
 <div  align="center">
-	<h3>Avaliação desenvolvimento web - PHP</h3>
+	<h1>Avaliação desenvolvimento web - PHP</h1>
 	<code>Professor responsável: <a href="https://github.com/orlandosaraivajr">Orlando Saraiva</a></code>
 </div>
 
