@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
+
+/* modal */
+/* body {
+    background-image: url("/assets/img/background-image.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: rgb(24, 23, 23);
+} */
+
+.content {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+}
+
+#modal {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 30px;
+    min-width: 300px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 0 50vmax rgba(0,0,0,.5);
+}
+
+.button {
+    background-color: rgb(37, 37, 37);
+    padding: 10px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.open {
+    position: absolute;
+    z-index: 1;
+    align-items: center;
+    justify-content: center;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    animation: modal .4s forwards;
+}
+
+@keyframes modal {
+    from {
+      opacity: 0;
+      transform: translate3d(0, -30px, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+}
+
+.text-content {
+    position: absolute;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+    
+
+.text-center {
+    text-align: center;
+}
+
+/* site */
+.material-icons.md-light { 
+    color: #344157; 
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 3rem;
+}
+
+.sub-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.pet-image{
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.bg-button{
+    background-color: #f3bd65;
+}
