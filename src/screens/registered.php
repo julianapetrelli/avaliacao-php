@@ -20,7 +20,7 @@ require_once("../auth/logout.php");
     <!-- Google icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-    <title>Home</title>
+    <title>Registros realizados</title>
 </head>
 
 <body>
